@@ -1,0 +1,24 @@
+1) Git
+https://try.github.io/levels/1/challenges/1
+http://pcottle.github.io/learnGitBranching/
+
+2) Cheat Sheet
+https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+
+3) Ruby tutorials
+http://tryruby.org/levels/1/challenges/0
+https://learnxinyminutes.com/docs/ruby/
+http://learnrubythehardway.org/book/index.html
+https://rubymonk.com/
+
+4) CSS
+http://www.atozcss.com/videos/
+http://flexboxfroggy.com/
+
+5) Ruby on Rails
+http://www.sitepoint.com/railsbricks-start-faster-rails/
+http://railsforzombies.org/
+
+6) Inne
+https://www.codeschool.com/
+https://www.nitrous.io/
