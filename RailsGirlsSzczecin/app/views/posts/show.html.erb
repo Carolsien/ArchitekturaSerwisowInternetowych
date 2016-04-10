@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @post.text %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <% @post.comments.each do |comment| %>
+
+<div>
+  <strong><%= comment.author%></strong>
+  <%= comment.comment %>
+
+</div>
+
+  <% end %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @post.created_at %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
+<%= link_to 'New Comment', new_post_comment_path(@post) %>
